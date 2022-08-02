@@ -11,6 +11,7 @@ colorV.style.color = " blue";
 let viText = document.querySelector(".vzdelani");
  viText.textContent = "Školy";
 
- let trida = document.querySelector(".tlacitko1");
- trida.classList.toggle("zvyrazneny");
-
+function pridejZvzrazneni(){ 
+    let trida = document.querySelector(".tlacitko1");
+    trida.classList.add("zvyrazneny");
+ }

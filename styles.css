@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
+*{
+    color: blue;
+}
+
 body {
     background-color: #cafffb;
     width: 800px;

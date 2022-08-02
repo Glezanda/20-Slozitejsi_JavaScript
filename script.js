@@ -12,5 +12,5 @@ let viText = document.querySelector(".vzdelani");
  viText.textContent = "Školy";
 
  let trida = document.querySelector(".tlacitko1");
- trida.className= "zvyrazneny";
+ trida.classList.add("zvyrazneny");
 

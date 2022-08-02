@@ -4,3 +4,9 @@ console.log("JavaScript funguje!");
 
  let visualniFoto = document.querySelector(".moje-foto");
  visualniFoto.src = "img/druhe-foto.jpeg";
+
+ function display()
+{
+var col=document.getElementById("demo").innerHTML;
+col.style.color="red";
+}

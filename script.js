@@ -1,3 +1,6 @@
 console.log("JavaScript funguje!");
- let visual = document.querySelector(".hlavni-odstavec");
- visual.textContent = "Home web";
+ let visualText = document.querySelector(".hlavni-odstavec");
+ visualText.textContent = "Home web";
+
+ let visualniFoto = document.querySelector(".moje-foto");
+ visualniFoto.src = "img/druhe-foto.jpeg";

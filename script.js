@@ -7,3 +7,8 @@ console.log("JavaScript funguje!");
 
 let colorV = document.querySelector(".predstaveni-se");
 colorV.style.color = " blue";
+
+let viText = document.querySelector(".vzdelani");
+ viText.textContent = "Skoly";
+
+ 
